@@ -12,12 +12,17 @@ body {
 #kemampuan {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .kotak {
-  width: 20%;
+  margin-top: 10px;
+  flex-basis: 300px;
   margin-right: 10px;
   margin-left: 10px;
   border: 1px solid gray;
+}
+.kotak img {
+  width: 100%;
 }
 #foto-profile {
   width: 200px;
